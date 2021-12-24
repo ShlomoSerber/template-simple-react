@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/template-simple-react/static/css/main.ee9b8b6e.chunk.css",
+    "main.js": "/template-simple-react/static/js/main.76a2d2ae.chunk.js",
+    "main.js.map": "/template-simple-react/static/js/main.76a2d2ae.chunk.js.map",
+    "runtime-main.js": "/template-simple-react/static/js/runtime-main.fa1b676d.js",
+    "runtime-main.js.map": "/template-simple-react/static/js/runtime-main.fa1b676d.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/template-simple-react/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.ea0d79f0.chunk.js": "/template-simple-react/static/js/2.ea0d79f0.chunk.js",
+    "static/js/2.ea0d79f0.chunk.js.map": "/template-simple-react/static/js/2.ea0d79f0.chunk.js.map",
+    "index.html": "/template-simple-react/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/template-simple-react/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.ee9b8b6e.chunk.css.map": "/template-simple-react/static/css/main.ee9b8b6e.chunk.css.map",
+    "static/js/2.ea0d79f0.chunk.js.LICENSE.txt": "/template-simple-react/static/js/2.ea0d79f0.chunk.js.LICENSE.txt",
+    "static/media/carrousel-3.424560c4.jpg": "/template-simple-react/static/media/carrousel-3.424560c4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fa1b676d.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.ea0d79f0.chunk.js",
+    "static/css/main.ee9b8b6e.chunk.css",
+    "static/js/main.76a2d2ae.chunk.js"
+  ]
+}
