@@ -1,0 +1,9 @@
+.footer-background {
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-text {
+    text-align: center;
+}

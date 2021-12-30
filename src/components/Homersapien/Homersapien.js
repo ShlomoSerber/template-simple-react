@@ -1,4 +1,5 @@
 import React from 'react';
+import "./Homersapien.css";
 import homersapien from "../../img/carrousel-3.jpg";
 
 class Homersapien extends React.Component {

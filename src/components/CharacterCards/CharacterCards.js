@@ -1,4 +1,5 @@
 import React from 'react';
+import "./CharacterCards.css";
 import maggie from "../../img/maggie.jpg";
 import homer from "../../img/homer.jpg";
 import bart from "../../img/bart.jpg";
@@ -6,8 +7,8 @@ import bart from "../../img/bart.jpg";
 class CharacterCards extends React.Component {
     render() { 
         return (
-            <div className="container-fluid row" style={{backgroundColor: "#cfcc2f", justifyContent: "space-around"}}>
-                <div className="card" style={{width: "18rem", margin: "3rem 2rem"}}>
+            <div className="container-fluid row cards-background">
+                <div className="card my-card">
                     <img src={maggie} className="card-img-top" alt="maggie.jpg"/>
                     <div className="card-body">
                         <h5 className="card-title">Maggie</h5>
@@ -15,7 +16,7 @@ class CharacterCards extends React.Component {
                         <a href="#" className="btn btn-primary bg-danger border-danger">Leer mas...</a>
                     </div>
                 </div>
-                <div className="card" style={{width: "18rem", margin: "3rem 2rem"}}>
+                <div className="card my-card">
                     <img src={homer} className="card-img-top" alt="maggie.jpg"/>
                     <div className="card-body">
                         <h5 className="card-title">Homero</h5>
@@ -23,7 +24,7 @@ class CharacterCards extends React.Component {
                         <a href="#" className="btn btn-primary bg-danger border-danger">Leer mas...</a>
                     </div>
                 </div>
-                <div className="card" style={{width: "18rem", margin: "3rem 2rem"}}>
+                <div className="card my-card">
                     <img src={bart} className="card-img-top" alt="maggie.jpg"/>
                     <div className="card-body">
                         <h5 className="card-title">Bart</h5>

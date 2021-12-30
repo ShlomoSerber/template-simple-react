@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+import "./Navbar.css";
 import headerGif from "../../img/header-simpsons.gif";
 
 class Navbar extends React.Component {
@@ -9,13 +11,13 @@ class Navbar extends React.Component {
                     <img src={headerGif} alt="header-simpson.gif" className="m-1"/>
                     <ul className="navbar-nav d-inline me-auto">
                         <li className="nav-item d-inline mx-2">
-                            <a className="nav-link active d-inline" aria-current="page" href="#">Inicio</a>
+                            <Link className="nav-link active d-inline" to="/">Inicio</Link>
                         </li>
                         <li className="nav-item d-inline mx-2">
-                            <a className="nav-link active d-inline" aria-current="page" href="#">Blog</a>
+                            <Link className="nav-link active d-inline" to="/blog">Blog</Link>
                         </li>
                         <li className="nav-item d-inline mx-2">
-                            <a className="nav-link active d-inline" aria-current="page" href="#">Contacto</a>
+                            <Link className="nav-link active d-inline" to="/contacto">Contacto</Link>
                         </li>
                     </ul>
                     <form className="d-flex">
