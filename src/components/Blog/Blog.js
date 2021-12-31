@@ -1,6 +1,6 @@
 import React from 'react';
-// import brujas from "../../img/brujas.jpg"
-// import lucha from "../../img/lucha.jpg"
+import brujas from "../../img/brujas.jpg"
+import lucha from "../../img/lucha.jpg"
 import "./Blog.css"
 
 const Blog = () => {
