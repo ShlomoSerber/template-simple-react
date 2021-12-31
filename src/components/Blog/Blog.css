@@ -1,0 +1,21 @@
+.yellow-background {
+    background-color: #cfcc2f;
+    padding: 60px;
+}
+.section {
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 60px;
+}
+.margin-top {
+    padding-top: 60px;
+}
+.blog-image {
+    height: 480px;
+    width: 640px;
+}
+.grey-divider {
+    background-color: rgb(177, 177, 177);
+    width: 100%;
+    height: 1px;
+}
