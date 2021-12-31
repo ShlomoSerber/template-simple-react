@@ -13,7 +13,7 @@ const Contacto = () => {
                     <label for="mensaje" className="form-label">Mensaje</label>
                     <textarea id="mensaje" className="form-control" rows={5}></textarea>
                 </div>
-                <button type="button" className="btn btn btn-outline-danger">ENVIAR</button>
+                <button type="submit" className="btn btn btn-outline-danger">ENVIAR</button>
             </form>
         </div>
         
